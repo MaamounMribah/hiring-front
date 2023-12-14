@@ -1,0 +1,15 @@
+{
+    "extends": [
+      "react-app", // Pour les projets créés avec Create React App
+      "plugin:react/recommended"
+    ],
+    "plugins": [
+      "react"
+    ],
+    "rules": {
+      "react/prop-types": 0,
+      "no-undef": 0,
+      "react/react-in-jsx-scope":"off"
+    }
+  }
+  
